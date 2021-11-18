@@ -28,5 +28,7 @@ public class ServerByte {
         System.out.println("sent changed message to client");
 
         System.out.println("Finish");
+        inputStream.close();
+        outputStream.close();
     }
 }

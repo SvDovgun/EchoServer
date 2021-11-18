@@ -23,6 +23,8 @@ public class ClientByte {
             String messageFromServer = new String(buffer, 0, count);
             System.out.println( messageFromServer);
             System.out.println("Finish ");
+            inputStream.close();
+
         }
     }
 }

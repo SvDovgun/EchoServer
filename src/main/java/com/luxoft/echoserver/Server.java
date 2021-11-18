@@ -1,11 +1,9 @@
 package com.luxoft.echoserver;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.time.LocalDateTime;
+
 
 public class Server {
     public static void main(String[] args) throws IOException {
